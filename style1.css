@@ -1,0 +1,82 @@
+/* General Styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body, bg_image {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    text-align: center;
+    background: url(library2.jpg) no-repeat center center /cover;
+    
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    max-width: 550px;
+    min-height: 420px;
+    background-color: rgba(139, 139, 139, 0.5);
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+
+.header {
+    color: white;
+    font-size: 1.2rem;
+    border: 2px solid rgb(255, 255, 255);
+    /* background-color: black; */
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.main-content {
+    flex: 1;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 3px 3px 10px lch(0% 0 0);
+}
+
+.main-content .text-area {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+.main-content .person {
+    font-size: 1.6rem;
+    color:brown;
+    text-transform: uppercase;
+    margin-top: 20px;
+    word-break: break-word;
+}
+
+.button-area button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin: 20px auto 10px auto; 
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(108, 108, 108);
+}
+
+.button-area button:active {
+    background-color: rgb(57, 148, 178);
+}
